@@ -28,6 +28,7 @@ function gotMessage(msg){
     //sets users name
     if(msg.content.substring(0,5)=='$Name'){
         console.log("Name Recored")
+        console.log("change")
         const name=msg.content.substring(5,msg.content.length)
         msg.reply(greetings[randomNumberGenerator(greetings.length)]+ " " +name)
     }
