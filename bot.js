@@ -61,7 +61,7 @@ function gotMessage(msg){
     //customize what you want in your
     if(msg.content === '$Customize'){
         
-        console.log("customized")
+        console.log("customizeds")
     }
 }
 
